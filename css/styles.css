@@ -29,7 +29,10 @@ ul,ol {
             color: #f4f4fd;
 }
 
-.nav-link {
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -40,9 +43,14 @@ ul,ol {
 .nav-link:hover, 
 .nav-link.focus,
 .contacts-link:hover,
-.contacts-link.focus {
-        color: #404bbf;
+.contacts-link:focus {
+    color: #404bbf;
 }
+
+.contacts {
+    font-style: normal;
+}
+
 
 .contacts-link {
     font-weight: 400;
@@ -52,13 +60,12 @@ ul,ol {
         color: #434455;
 
 }
-.contacts {
-    font-style: normal;
-}
+
 
 .page-footer {
     background-color: #2e2f42;
 }
+
  .page-header {
     background-color: #fff;
 }
@@ -83,6 +90,7 @@ ul,ol {
         color: #fff;
         background: #404bbf;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
         background-color:#4d5ae5; 
@@ -128,9 +136,11 @@ background-color: #f4f4fd;
 .team {
     background-color:#f4f4fd;;
 }
+
 .ot-team-list {
         background-color: #fff;
 }
+
 .ot-name,
 .p-app{
     font-weight: 500;
@@ -150,6 +160,7 @@ background-color: #f4f4fd;
         text-align: center;
         color: #2e2f42;
 }
+
 .ot-info ,
 .p-info{
     font-weight: 400;
